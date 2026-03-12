@@ -8,9 +8,7 @@ const BENEFITS = [
 export default function Benefits() {
   return (
     <section className="benefits" id="benefits">
-      <h2 className="benefits__title">
-        The <span className="accent-text">"Early Member"</span> benefits
-      </h2>
+      <h2 className="benefits__title">The <span className="accent-text">"Early Member"</span> benefits</h2>
       <div className="benefits__halo">
         {BENEFITS.map((benefit) => (
           <div key={benefit.title} className={`benefits__node ${benefit.position}`}>

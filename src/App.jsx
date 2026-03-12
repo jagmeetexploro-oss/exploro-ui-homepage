@@ -19,9 +19,11 @@ export default function App() {
         <Steps />
         <Popular />
         <Benefits />
-        <Closing />
       </main>
-      <Footer />
+      <div className="closing-clip">
+        <Closing />
+        <Footer />
+      </div>
     </div>
   )
 }

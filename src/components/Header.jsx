@@ -1,9 +1,11 @@
+import logo from '../assets/exploro-logo.svg'
+import mobileIcon from '../assets/icon-mobile.svg'
+
 export default function Header() {
   return (
     <header className="nav">
       <div className="nav__brand">
-        <div className="nav__logo-mark">E</div>
-        <span className="nav__logo-text">Exploro</span>
+        <img src={logo} alt="Exploro" className="nav__logo" />
       </div>
       <nav className="nav__links">
         <a href="#smartest" className="nav__link">Why us?</a>
@@ -11,7 +13,10 @@ export default function Header() {
         <a href="#steps" className="nav__link">Smart Savings</a>
       </nav>
       <div className="nav__actions">
-        <button className="btn btn--primary">Download</button>
+        <button className="btn btn--download">
+          <span>Download</span>
+          <img src={mobileIcon} alt="Mobile" className="btn__icon" />
+        </button>
       </div>
     </header>
   )

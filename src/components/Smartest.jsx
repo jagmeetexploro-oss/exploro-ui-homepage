@@ -20,9 +20,7 @@ const SMART_CARDS = [
 export default function Smartest() {
   return (
     <section className="smartest" id="smartest">
-      <h2 className="smartest__title">
-        The <span className="accent-text">Smartest Way</span> to Travel
-      </h2>
+      <h2 className="smartest__title">The Smartest <span className="accent-text">Way to Travel</span></h2>
       <p className="smartest__subtitle">
         We've built the engine. You just pick the destination.
       </p>
